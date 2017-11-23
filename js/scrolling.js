@@ -2,7 +2,7 @@ $(document).ready(function(){
   	$("a").on('click', function(event) {
   		let ref = jQuery(this).attr("class");
 
-	    if (ref !== "nav-link") {
+	    if (this.getAttribute("href").charAt(0) === "#" && ref !== "nav-link") {
 	        event.preventDefault();
 	  		var hash = this.hash;
 	  		$('html, body').animate({

@@ -115,7 +115,6 @@ section {
 .main-heading{
     color: white;
     font-size: 50px;
-
 }
 
 .small-heading{
@@ -125,7 +124,8 @@ section {
 
 .title{ 
     color:white; 
-    font-size:40px; }
+    font-size:40px; 
+}
 
 
 
@@ -167,6 +167,28 @@ section {
     height: 175px;
     width: auto;
     margin: 30px;
+}
+
+.progress {
+    background-color: rgb(50, 50, 50);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.progress-bar {
+    line-height: 16px;
+    font-size: 114%;
+    text-align: left;
+    background-color: rgb(105,105,105);
+}
+
+.bar-text span {
+    padding: 40px 15px;
 }
 
 .skills {
