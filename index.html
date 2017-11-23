@@ -16,8 +16,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-
-
 </head>
 
 <body>
@@ -39,6 +37,18 @@
     </div>
 
 
+    <section id="about" class="skills">
+        <div class="container text-center">
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>I am currently an undergraduate junior at Loyola Marymount University pursuing my Bachelor of Science in <strong>Computer Science</strong> and a minor in Business Administration
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id="skills" class="skills">
         <div class="container text-center">
             <h1>Skills</h1>
@@ -52,6 +62,7 @@
                     <p>CSS</p>
                     <p>Bootstrap</p>
                     <p>Python</p>
+                    <p>Elm</p>
                     <p>C/C++</p>
                     <p>Node.js</p>
                     <p>Jekyll</p>
@@ -146,7 +157,9 @@
 
         <div role="tabpanel" class="tab-pane fade" id="data-algorithms">
             <section class="container">
-                <h2>Data Structures And Algorithms</h2>
+                <div class="row">
+                    <h2>Data Structures And Algorithms</h2>
+                </div>
                 <div class="row text-center">
                     <div class="col-md-3">
                         <div class="thumbnail gray-bg">
@@ -154,7 +167,7 @@
                             <p><strong>Autocompleter</strong></p>
                             <p>Utilized ternary trees in Java to suggest completed words for string inputs, similar to “suggested search” function of a search engine.</p>
                             <p><strong>Tools:</strong> Java</p>
-                            <button class="btn">See Project</button>
+                            <a href="https://github.com/danicobryan/cmsi281-data-structures/tree/master/autocompleter"><button class="btn">See Project</button></a>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -164,7 +177,16 @@
                             <p>Used a Java implementation of hash tables/functions to create an object that reads a text file and analyzes
                             whether the words have an overall positive or negative tone.</p>
                             <p><strong>Tools:</strong> Java</p>
-                            <button class="btn">See Project</button>
+                            <a href="https://github.com/danicobryan/cmsi281-data-structures/tree/master/sentinal"><button class="btn">See Project</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail gray-bg">
+                            <div class="square" style="background-image: url('https://media.giphy.com/media/RmJjxpTIOvU52/giphy-downsized-large.gif')"></div>
+                            <p><strong><i>Kth</i> Element Selector</strong></p>
+                            <p>Implemented Java, with randomized partition and Quick Sort algorithms, to find the kth smallest term given a text file of arbitrary integers of arbitrary length</p>
+                            <p><strong>Tools:</strong> Java</p>
+                            <a href="https://github.com/danicobryan/cmsi282-algorithms/blob/master/Select.java"><button class="btn">See Project</button></a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +194,11 @@
             </section>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="other">
-            <!-- add -->
+           <section class="container">
+               <div class = "row">
+                   <h1> To Do </h1>
+               </div>
+           </section>
         </div>
 
 
@@ -186,11 +212,16 @@
 
 
     
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
     <script src="js/scrolling.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+
+
+    </script>
+    
 
 
 </body>
