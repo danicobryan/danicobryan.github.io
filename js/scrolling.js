@@ -1,13 +1,16 @@
 $(document).ready(function(){
   	$("a").on('click', function(event) {
-		if ((this.hash !== "") && (this.hash !== "#events-carousel")) {
-	  		event.preventDefault();
+  		let ref = jQuery(this).attr("class");
+
+	    if (ref !== "nav-link") {
+	        event.preventDefault();
 	  		var hash = this.hash;
 	  		$('html, body').animate({
 				scrollTop: $(hash).offset().top
 	  		}, 800, function(){
 				window.location.hash = hash;
 	  		});
-		}
+	    }
+  		
   	});
 });
