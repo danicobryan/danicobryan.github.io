@@ -8,8 +8,7 @@
 
     <title>Danico Bryan Pidlaoan Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -82,57 +81,114 @@
             <a href="http://github.com/danicobryan"><button class="btn wow fadeIn" data-wow-delay="1.0s">See More Work on GitHub</button></a>
         </section>
     </section>
-    <section>
-        <section class="container">
-            <h2>Front End/Web Development</h2>
-            <div class="row front-end-project well">
-                <div class="col-md-6">
-                    <img src="images/magis-website.jpg" class="img-fluid">
+
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" href="#front-end" role="tab" data-toggle="tab">Front End/Web Development</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#data-algorithms" role="tab" data-toggle="tab">Data Structures and Algorithms</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#other" role="tab" data-toggle="tab">Other Projects</a>
+        </li>
+    </ul>
+
+
+    <div class="tab-content">
+
+        <div role="tabpanel" class="tab-pane fade show active" id="front-end">
+    
+            <section class="container">
+                <h2>Front End/Web Development</h2>
+                <div class="row front-end-project">
+                    <div class="col-md-6">
+                        <img src="images/magis-website.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>MAGIS Service Organization</h3>
+                        <p><strong>DESCRIPTION:</strong> Created the official website for MAGIS Service Organization at LMU. The site now serves as a platform for anyone interested in applying to learn more, for anyone wishing to partner with us to find more information, or for anyone who wants to check out what we are all about and keep updated. Responsive design makes it very mobile friendly!</p>
+                        <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap, Instafeed.js</p>
+                        <a href="http://www.lmumagis.com"><button class="btn wow fadeIn" data-wow-delay="1.0s">Site in Action</button></a>
+                        <a href="http://github.com/danicobryan/magis"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>MAGIS Service Organization</h3>
-                    <p><strong>DESCRIPTION:</strong> Created the official website for MAGIS Service Organization at LMU. The site now serves as a platform for anyone interested in applying to learn more, for anyone wishing to partner with us to find more information, or for anyone who wants to check out what we are all about and keep updated. Responsive design makes it very mobile friendly!</p>
-                    <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap, Instafeed.js</p>
-                    <a href="http://www.lmumagis.com"><button class="btn wow fadeIn" data-wow-delay="1.0s">Site in Action</button></a>
-                    <a href="http://github.com/danicobryan/magis"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
+                <div class="row front-end-project well">
+                    <div class="col-md-6">
+                        <img src="images/phidelt-website.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Phi Delta Theta</h3>
+                        <p><strong>DESCRIPTION:</strong> Also redesigned and coded the new official website for Phi Delta Theta at LMU. A full page scrolling
+                        website with responsive design, the new website fully captures what the organization embodies, as well as information about how to
+                        rush and links to our media.</p>
+                        <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap</p>
+                        <a href="http://www.lmuphidelt.com"><button class="btn wow fadeIn" data-wow-delay="1.0s">Site in Action</button></a>
+                        <a href="http://github.com/danicobryan/lmuphidelt"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="row front-end-project well">
-                <div class="col-md-6">
-                    <img src="images/phidelt-website.jpg" class="img-fluid">
+                <div class="row front-end-project well">
+                    <div class="col-md-6">
+                        <img src="http://g.recordit.co/4QlYYCXPiq.gif" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>World Music Search</h3>
+                        <p><strong>DESCRIPTION:</strong> A simple web app I made using the Musixmatch API that allows users to search any country
+                        and see the top 10 music artists in that country, as well as their most recent albums. Made for my Interaction Design class
+                        at LMU, this app allows users to discover new artists from around the world.</p>
+                        <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap, Musixmatch API, Node.js, Jasmine Test Suite</p>
+                        <a href="http://github.com/danicobryan/world-music-search"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Phi Delta Theta</h3>
-                    <p><strong>DESCRIPTION:</strong> Also redesigned and coded the new official website for Phi Delta Theta at LMU. A full page scrolling
-                    website with responsive design, the new website fully captures what the organization embodies, as well as information about how to
-                    rush and links to our media.</p>
-                    <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap</p>
-                    <a href="http://www.lmuphidelt.com"><button class="btn wow fadeIn" data-wow-delay="1.0s">Site in Action</button></a>
-                    <a href="http://github.com/danicobryan/lmuphidelt"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
+            </section>
+ 
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="data-algorithms">
+            <section class="container">
+                <h2>Data Structures And Algorithms</h2>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div class="thumbnail gray-bg">
+                            <div class="square" style="background-image: url('https://images4.sw-cdn.net/product/picture/674x501_1090819_1013653_1459317419.jpg')"></div>
+                            <p><strong>Autocompleter</strong></p>
+                            <p>Utilized ternary trees in Java to suggest completed words for string inputs, similar to “suggested search” function of a search engine.</p>
+                            <p><strong>Tools:</strong> Java</p>
+                            <button class="btn">See Project</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail gray-bg">
+                            <div class="square" style="background-image: url('https://st2.depositphotos.com/5266903/8715/v/950/depositphotos_87151180-stock-illustration-valid-document-icon.jpg')"></div>
+                            <p><strong>Sentiment Analyzer</strong></p>
+                            <p>Used a Java implementation of hash tables/functions to create an object that reads a text file and analyzes
+                            whether the words have an overall positive or negative tone.</p>
+                            <p><strong>Tools:</strong> Java</p>
+                            <button class="btn">See Project</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row front-end-project well">
-                <div class="col-md-6">
-                    <img src="http://g.recordit.co/4QlYYCXPiq.gif" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h3>World Music Search</h3>
-                    <p><strong>DESCRIPTION:</strong> A simple web app I made using the Musixmatch API that allows users to search any country
-                    and see the top 10 music artists in that country, as well as their most recent albums. Made for my Interaction Design class
-                    at LMU, this app allows users to discover new artists from around the world.</p>
-                    <p><strong>TOOLS:</strong> JavaScript, HTML, CSS, JQuery, Bootstrap, Musixmatch API, Node.js, Jasmine Test Suite</p>
-                    <a href="http://github.com/danicobryan/world-music-search"><button class="btn wow fadeIn" data-wow-delay="1.0s">See Project on GitHub</button></a>
-                </div>
-            </div>
-        </section>
-    </section>
+
+            </section>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="other">
+            <!-- add -->
+        </div>
+
+
+    </div>
+
+
+
+
+ 
+
 
 
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/scrolling.js"></script>
 
