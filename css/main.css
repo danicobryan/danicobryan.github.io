@@ -217,7 +217,8 @@ section {
     background-position: center;
 }
 
-#data-algorithms .row {
+#data-algorithms .row,
+#other .row {
     padding-top: 30px;
     padding-bottom: 30px;
 }
