@@ -36,6 +36,7 @@ section {
     padding-bottom: 50px;
 }
 
+
 .text-white {
     color: white;
 }
@@ -56,11 +57,25 @@ section {
 
 }
 
+.btn-secondary {
+  background-color: rgb(0, 43, 84) !important;
+  border-color: white !important;
+  color: white !important;
+}
+
 .btn:hover {
     background-color: rgb(0, 43, 84);
     border-color: white;
     color: white;
 }
+
+.btn-secondary:hover {
+  background-color: rgb(0, 191, 255) !important;
+  border-color: rgb(0, 191, 255) !important;
+  color: white !important;
+}
+
+
 
 .full-page-image {
     /* The image used */
@@ -178,10 +193,18 @@ section {
 }
 
 .about img {
-    height: 175px;
+    height: 300px;
     width: auto;
     margin: 30px;
 }
+
+
+.companies img {
+    max-height: 60px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
 
 .progress {
     background-color: rgb(105, 105, 105);
